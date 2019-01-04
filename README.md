@@ -19,7 +19,7 @@ $ yarn add react-navigation-magic-move
 Import the library
 
 ```jsx
-import from 'react-navigation-magic-move';
+import "react-navigation-magic-move";
 ```
 
 **That's it!**

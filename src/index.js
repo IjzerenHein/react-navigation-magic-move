@@ -1,8 +1,8 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 import { Scene } from "react-native-magic-move";
 import { NavigationEvents } from "react-navigation";
 
-class NavigationScene extends PureComponent {
+class ReactNavigationScene extends Component {
   state = {
     active: false
   };
@@ -16,7 +16,10 @@ class NavigationScene extends PureComponent {
           // onDidFocus={payload => console.log("did focus", payload)}
           // onDidBlur={payload => console.log("did blur", payload)}
         />
-        <Scene {...this.props} active={active} />
+        {// eslint-disable-next-line
+        React.cloneElement(this.props.children, {
+          active
+        })}
       </React.Fragment>
     );
   }
@@ -34,4 +37,4 @@ class NavigationScene extends PureComponent {
   };
 }
 
-export default NavigationScene;
+Scene.addHook(ReactNavigationScene);

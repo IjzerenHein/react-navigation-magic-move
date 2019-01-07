@@ -2,7 +2,7 @@
 
 Bindings for using [react-navigation](https://reactnavigation.org/) with [react-native-magic-move](https://github.com/IjzerenHein/react-native-magic-move) 🐰🎩✨
 
-## WIP, use react-native-magic-move@0.4.0-rc2 if you want to test
+## WIP, use react-native-magic-move@0.4.0-rc3 if you want to test
 
 ## Why is this needed
 

@@ -61,4 +61,4 @@ const Scene2 = () => (
 
 ## That's it!
 
-Magic-move will now animate your components when transitioning from one scene to another. If you want to opt-out of transitions, then use the `disabled` prop to turn off transitions towards a scene or component.
+Magic-move will now animate your components when transitioning from one scene to another. If you want to opt-out of transitions, then use the `disabled` prop to turn off transitions towards that scene or component.

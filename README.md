@@ -2,8 +2,6 @@
 
 Bindings for using [react-navigation](https://reactnavigation.org/) with [react-native-magic-move](https://github.com/IjzerenHein/react-native-magic-move) 🐰🎩✨
 
-## WIP, use react-native-magic-move@next if you want to test
-
 ## Why is this needed
 
 `react-native-magic-move` triggers its animations whenever it detects that a new MagicMove view has been mounted. However, navigation libraries such as `react-navigation` keep components mounted for better performance and faster switching. This means that actions such as back navigation, tab switching or modal popups don't trigger an animation or don't trigger it consistently. This binding solves that problem by installing a hook that forwards the navigator scene information to `react-native-magic-move`.
@@ -62,3 +60,5 @@ const Scene2 = () => (
 ## That's it!
 
 Magic-move will now animate your components when transitioning from one scene to another. If you want to opt-out of transitions, then use the `disabled` prop to turn off transitions towards that scene or component.
+
+![MagicMoveGif](react-navigation-magic-move.gif)

@@ -1,6 +1,6 @@
 {
   "name": "react-navigation-magic-move",
-  "version": "0.4.0-rc5",
+  "version": "0.4.0",
   "description": "Bindings for using react-navigation with react-native-magic-move",
   "author": "IjzerenHein <hrutjes@gmail.com>",
   "keywords": [

@@ -4,7 +4,13 @@ Bindings for using [react-navigation](https://reactnavigation.org/) with [react-
 
 ## [Unreleased]
 
-## [0.4.0] - 2019-01-xx
+## [0.4.1] - 2019-01-19
+
+### Added
+
+- Added ability to override the `active` state, through `<MagicMove.Scene active={true/false}>`
+
+## [0.4.0] - 2019-01-09
 
 ### Added
 
